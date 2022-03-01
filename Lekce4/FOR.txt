@@ -1,0 +1,2 @@
+v teto lekci se naucime specializovany cyklus for,
+ten slouzi k opakovani kodu x krat, jedna se o zjednoduseni cyklu while pro situace kde zname pocet opakovani

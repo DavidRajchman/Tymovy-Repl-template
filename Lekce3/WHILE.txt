@@ -1,0 +1,10 @@
+v teto lekci se naucime while cyklus.
+
+while opakuje blok prikazu uvnitr dokud plati podminka
+napriklad:
+
+while(penize < 5000)
+  print("odloz si 200kc do kasicky")
+  penize = penize + 200
+end
+print("super, uz sis nasetril dost a muzes si to koupit")

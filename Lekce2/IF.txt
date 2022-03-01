@@ -1,0 +1,25 @@
+V teto lekci se naucime pracovat s prikazem IF
+
+ten slouzi k vetveni kodu podle podminek, napriklad: mam dost penez? [super tak si to jdu koupit | skoda, musim jeste setrit]
+
+samozrejme v lue jsme trochu omezeni a nasemu programu musime rict co znamena "dost penez", konkretni podminka by tedy mohla vypadat takhle:
+
+if penize > 5000 then
+  print("super tak si to jdu koupit")
+else
+  print("skoda, musim jeste setrit")
+end
+
+POZOR kazdy blok vcetne if bloku konci slovem end
+
+mame jeste moznost podminku rozsirit pomoci elseif
+
+if penize > 5000 then
+  print("super tak si to jdu koupit")
+elseif penize > 4500
+  print("muzu si to koupit, ale budu muset obedvat rohliky")
+else
+  print("skoda, musim jeste setrit")
+end
+
+tohle byl takovy maly uvod, zbytek se dozvis na lekci
