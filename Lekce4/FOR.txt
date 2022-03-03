@@ -1,2 +1,24 @@
 v teto lekci se naucime specializovany cyklus for,
 ten slouzi k opakovani kodu x krat, jedna se o zjednoduseni cyklu while pro situace kde zname pocet opakovani
+
+for ma format: for <kolik se rovna pocatecni promenna>, <do kolika se pocita>, <kolik se k ni pricte kazdy cyklus> do
+<blok prikazu>
+end
+
+kde:
+<kolik se rovna ridici promenna> se vetsinou pise ve formatu x = <nejake cislo nebo promenna> kde x ja nazev nasi promenne
+
+<do kolika se pocita> je cislo, ktereho kdyz nase ridici promenna presahne, for skonci, toto cislo muze byt mensi nebo vetsi nez pocatecni hodnota ridici promenne
+
+<kolik se k ni pricte kazdy cyklus>, je cislo ktere se pricita kazdym vykoanim smycky, muze byt i zaporne, v tom pripade s ridici promenna zmensuje a <do kolika se pocita> musi byt mensi nez pocatecni stav ridici promenne, jinak se dostaneme do nekonecne smycky
+
+priklad - kalkulacka sporeni
+
+urok = 0.05 -- po prevedeni na procenta se 0.05 = 5%
+ulozenaCastka = 1000 --kolik si dame na ucet penez
+pocetLet = 10 -- jak dlouho sporime
+
+for i = 0,pocetLet,1 do 
+    ulozenaCastka = ulozenaCastka * (urok+1)
+    print("mas", ulozenaCastka, "Kc, po ", i, "roce")   
+end

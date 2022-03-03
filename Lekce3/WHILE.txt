@@ -1,9 +1,18 @@
 v teto lekci se naucime while cyklus.
 
 while opakuje blok prikazu uvnitr dokud plati podminka
+
+ma jednoduchy syntax
+while <podminka> do 
+<blok prikazu>
+end
+
+pokud je vysledek podminky true, tak while funguje
+podminky maji stejne pravidla jako v if
+
 napriklad:
 
-while(penize < 5000)
+while(penize < 5000) do
   print("odloz si 200kc do kasicky")
   penize = penize + 200
 end
